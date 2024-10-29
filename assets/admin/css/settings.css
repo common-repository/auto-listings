@@ -1,0 +1,17 @@
+/* Always show meta boxes in the sidebar */
+#side-sortables .postbox {
+	display: block !important;
+}
+#side-sortables .dashicons {
+	color: #e53e3e;
+	font-size: 16px;
+	height: 16px;
+	width: 16px;
+	margin-top: 2px;
+}
+#side-sortables p:has(.dashicons) {
+	padding-left: 20px;
+}
+#side-sortables p:has(.dashicons) .dashicons {
+	margin-left: -20px;
+}
